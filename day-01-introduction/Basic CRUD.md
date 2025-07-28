@@ -1,4 +1,4 @@
-# 📘 Day 5: Building a Basic CRUD API
+# 📘 Day: Building a Basic CRUD API
 
 ---
 
