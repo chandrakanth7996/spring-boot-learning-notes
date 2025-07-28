@@ -36,6 +36,7 @@ public class Student {
 
 ### 📦 Service: `StudentService.java`
 
+```java
 @Service
 public class StudentService {
     List<Student> students = new ArrayList<>();
@@ -47,6 +48,7 @@ public class StudentService {
 
 ### 📦 Contoller: `StudentContoller.java`
 
+```java
 @RestController
 @RequestMapping("/students")
 public class StudentController {
