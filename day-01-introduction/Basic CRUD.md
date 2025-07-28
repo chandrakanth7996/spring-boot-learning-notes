@@ -32,8 +32,10 @@ public class Student {
     // Getters & Setters
 }
 
+---
 
-```java
+### 📦 Service: `StudentService.java`
+
 @Service
 public class StudentService {
     List<Student> students = new ArrayList<>();
@@ -41,7 +43,10 @@ public class StudentService {
     public void addStudent(Student s) { students.add(s); }
 }
 
-```java
+---
+
+### 📦 Contoller: `StudentContoller.java`
+
 @RestController
 @RequestMapping("/students")
 public class StudentController {
